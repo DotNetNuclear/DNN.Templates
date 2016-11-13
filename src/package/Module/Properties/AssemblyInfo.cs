@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DnnMvcModule")]
+[assembly: AssemblyTitle("$ext_rootnamespace$")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DnnMvcModule")]
-[assembly: AssemblyCopyright("Copyright © 2016")]
+[assembly: AssemblyProduct("$ext_rootnamespace$")]
+[assembly: AssemblyCopyright("Copyright © $year$")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

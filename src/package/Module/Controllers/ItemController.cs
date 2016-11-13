@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
-using Dnn.Modules.DnnMvcModule.Components;
-using Dnn.Modules.DnnMvcModule.Models;
+using $ext_rootnamespace$$safeprojectname$.Components;
+using $ext_rootnamespace$$safeprojectname$.Models;
 using DotNetNuke.Web.Mvc.Framework.Controllers;
 using DotNetNuke.Web.Mvc.Framework.ActionFilters;
 using DotNetNuke.Entities.Users;
 using DotNetNuke.Framework.JavaScriptLibraries;
 
-namespace Dnn.Modules.DnnMvcModule.Controllers
+namespace $ext_rootnamespace$$safeprojectname$.Controllers
 {
     [DnnHandleError]
     public class ItemController : DnnController

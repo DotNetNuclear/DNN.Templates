@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>DNN MVC Module</Name>
+        <Description>A Visual Studio template for DotNetNuke 8 Module Development using the new MVC module type.</Description>
+        <Icon>__TemplateIcon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <CreateNewFolder>false</CreateNewFolder>
+        <DefaultName>DNNModule</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+    </TemplateData>
+    <TemplateContent>
+		<CustomParameters>
+		  <CustomParameter Name="$rootnamespace$" Value="Dnn.Modules."/>
+		  <CustomParameter Name="$devenvironmenturl$" Value="dnndev.me" />
+		  <CustomParameter Name="$year$" Value="2016" />
+		</CustomParameters>
+        <ProjectCollection>
+			<ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+				Module\MvcModule.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$safeprojectname$.Tests" CopyParameters="true">
+				Module\Tests\Tests.vstemplate
+			</ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

@@ -12,9 +12,9 @@
 using System.Collections.Generic;
 using DotNetNuke.Data;
 using DotNetNuke.Framework;
-using Dnn.Modules.DnnMvcModule.Models;
+using $ext_rootnamespace$$safeprojectname$.Models;
 
-namespace Dnn.Modules.DnnMvcModule.Components
+namespace $ext_rootnamespace$$safeprojectname$.Components
 {
     public interface IItemManager
     {
